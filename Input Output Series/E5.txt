@@ -1,0 +1,12 @@
+raw = input('Provide a list of floats separated by spaces.')
+print('\n')
+
+print('Raw:', raw)
+split = raw.split()
+print('Split:', split)
+
+for i in range (len(split)) :
+    split[i] = float(split[i])
+    
+print('Converted:', split)
+print('Sum:', sum(split))

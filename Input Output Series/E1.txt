@@ -1,0 +1,5 @@
+num1 = int(input('give me #1:\n'))
+num2 = int(input('give me #2:\n'))
+
+
+print('multiplication = ', num1 * num2)

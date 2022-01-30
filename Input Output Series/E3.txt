@@ -1,0 +1,2 @@
+dec = int(input())
+print('The octal number of decimal number', dec, 'is', '%o' % dec)

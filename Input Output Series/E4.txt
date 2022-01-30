@@ -1,0 +1,2 @@
+num = float(input())
+print('Item:', '%.2f' % num)

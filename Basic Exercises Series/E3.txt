@@ -1,0 +1,14 @@
+#Enter Python code here and hit the Run button.
+
+def even_num(in_string) :
+    print('Printing only even index chars', '\n')
+    length = len(in_string)   
+    for i in range(0, int(length//2)) :
+        print('\n',in_string[i*2])
+        
+    
+    
+
+user = input('What string do you want to provide?')
+print('\n','Original String is',user, '\n')
+even_num(user)

@@ -1,0 +1,16 @@
+def chop(w,n) :
+    new = ''
+    for pointer in range(0, len(word) - number) :
+        new = new + word[number + pointer]
+    return new
+    
+
+word = input('enter a word\n')
+number = int(input('enter a number\n'))
+
+if len(word) <= number :
+    print('number must be > than # of characters')
+else :
+    out = chop(word,number)
+    print(out)
+    

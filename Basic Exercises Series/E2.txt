@@ -1,0 +1,9 @@
+def printer(one,two,three) :
+    print('Current Number',one,'Previous Number',two,'Sum:',three)
+    
+    
+
+prev = 0
+for curr in range(0, 10) :
+    printer(curr,prev,prev + curr)
+    prev = curr

@@ -1,0 +1,13 @@
+def sorter(a,b) :
+    print('number1 =',a)
+    print('number2 =',b)
+    if (a * b) > 1000 :
+        return a + b
+    else :
+        return a * b
+        
+
+out = sorter(20,30)
+print('The result is',out,'\n','\n')
+out = sorter(40,30)
+print('The result is',out,'\n','\n')
