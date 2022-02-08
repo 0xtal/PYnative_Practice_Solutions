@@ -1,11 +1,7 @@
-from argparse import ArgumentError
-
-
 def func1(*args) :
-    sum = 0
+    print('Printing values', end = '\n')
     for i in args :
-        sum = sum + i
-    print(sum)
+        print(i)
 
 
 func1(20, 40, 60)
