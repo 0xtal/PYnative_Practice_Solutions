@@ -1,4 +1,5 @@
 str1 = "/*Jon is @developer & musician"
+print('Old string is:', str1)
 i = 0
 switch = False
 str2 = ''
@@ -13,4 +14,4 @@ for i in range(len(str1)) :
             str2 = str2 + str1[i]
             switch = False
             
-print(str2)
+print('New string is:', str2)
