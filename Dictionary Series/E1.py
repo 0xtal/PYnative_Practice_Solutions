@@ -1,8 +1,8 @@
 keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
-dict = {}
+new_dict = {}
 
 for i in range(len(values)) :
-    dict[keys[i]] = values[i]
+    new_dict[keys[i]] = values[i]
 
-print(dict)
+print(new_dict)
