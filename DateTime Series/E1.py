@@ -1,4 +1,4 @@
 import datetime
 
 print(datetime.datetime.today())
-print(datetime.datetime.now().time())
+print(datetime.datetime.now())
